@@ -5,6 +5,8 @@ import androidx.room.Room
 import androidx.test.core.app.ApplicationProvider
 import androidx.test.filters.SmallTest
 import com.archi4zlo.shoppinglist.getOrAwaitValue
+import com.archi4zlo.shoppinglist.launchFragmentInHiltContainer
+import com.archi4zlo.shoppinglist.ui.ShoppingFragment
 import com.google.common.truth.Truth.assertThat
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
